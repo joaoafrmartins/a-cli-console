@@ -1,0 +1,29 @@
+{
+  "name": "a-cli-console",
+  "version": "0.0.0",
+  "main": "lib/main",
+  "dependencies": {
+    "mixto": "",
+    "colors": ""
+  },
+  "devDependencies": {
+    "kosher": ""
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register ./spec"
+  },
+  "description": "A Cli Console",
+  "keywords": [
+    "a",
+    "cli",
+    "console"
+  ],
+  "homepage": "https://github.com/joaoafrmartins/a-cli-console",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaoafrmartins/a-cli-console.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joaoafrmartins/a-cli-console/issues"
+  }
+}
